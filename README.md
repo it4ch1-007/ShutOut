@@ -16,3 +16,6 @@
     - For Networking, TCP will be used.
     - No data encryption yet.
     - Mutexes will be used in order to limit the access of a sequence of presentation slides to the particular users.
+### Add-in C# Method
+- The C# plugin acts like a frontend that implements all the features for the MS powerpoint.
+- The DLL will be able to communicate with each other and to the host using channel communication.
