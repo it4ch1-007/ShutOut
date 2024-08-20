@@ -1,5 +1,6 @@
 # ppt_controller_
 
+### DLL Method
 - Based on C++
 - Master software :
     - This will be created in Qt5 gui and will have various options and features.
