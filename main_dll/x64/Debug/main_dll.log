@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\akshi\Downloads\ppt_controller\main_dll\main_dll\dllmain.cpp(23,87): error C2059: syntax error: ')'
+C:\Users\akshi\Downloads\ppt_controller\main_dll\main_dll\dllmain.cpp(23,58): error C2614: 'Session': illegal member initialization: 'clients_mutex_' is not a base or member
+C:\Users\akshi\Downloads\ppt_controller\main_dll\main_dll\dllmain.cpp(30,50): error C2065: 'clients_mutex_': undeclared identifier
+C:\Users\akshi\Downloads\ppt_controller\main_dll\main_dll\dllmain.cpp(64,52): error C2065: 'clients_mutex_': undeclared identifier
+C:\Users\akshi\Downloads\ppt_controller\main_dll\main_dll\dllmain.cpp(69,17): error C2065: 'clients': undeclared identifier
+C:\Users\akshi\Downloads\ppt_controller\main_dll\main_dll\dllmain.cpp(77,42): error C2065: 'clients_mutex_': undeclared identifier
+C:\Users\akshi\Downloads\ppt_controller\main_dll\main_dll\dllmain.cpp(126,15): error C2601: 'DllMain': local function definitions are illegal
+C:\Users\akshi\Downloads\ppt_controller\main_dll\main_dll\dllmain.cpp(112,29): error C1075: '{': no matching token found
