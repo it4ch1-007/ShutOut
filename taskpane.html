@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Pane</title>
+  <script>
+    Office.onReady(function(info) {
+      if (info.host === Office.HostType.PowerPoint) {
+      }
+    });
+
+    function startServer() {
+      Office.context.ui.messageParent("StartServer");
+    }
+
+    function stopServer() {
+      Office.context.ui.messageParent("StopServer");
+    }
+
+    function sendMessage() {
+      Office.context.ui.messageParent("SendMessage");
+    }
+  </script>
+</head>
+<body>
+  <h1>ShutOut Task Pane</h1>
+  <button onclick="startServer()">Start Server</button>
+  <button onclick="stopServer()">Stop Server</button>
+  <button onclick="sendMessage()">Send Message</button>
+</body>
+</html>

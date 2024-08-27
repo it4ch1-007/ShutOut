@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp
+          xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+          xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+          xsi:type="TaskPaneApp">
+
+  <Id>97650557-9d8a-47dd-b35b-258d13944c33</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>YourProviderName</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="ShutOut Add-in" />
+  <Description DefaultValue="Control PowerPoint presentations across devices using ShutOut."/>
+
+  <IconUrl DefaultValue="https://yourdomain.com/assets/icon-32.png" />
+  <HighResolutionIconUrl DefaultValue="https://yourdomain.com/assets/icon-80.png" />
+
+  <AppDomains>
+    <AppDomain>yourdomain.com</AppDomain>
+  </AppDomains>
+
+  <Hosts>
+    <Host Name="Presentation" />
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://yourdomain.com/taskpane.html" />
+  </DefaultSettings>
+
+  <Permissions>ReadWriteDocument</Permissions>
+
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
+    <Hosts>
+      <Host xsi:type="Presentation">
+        <DesktopFormFactor>
+          <GetStarted>
+            <Title resid="GetStarted.Title"/>
+            <Description resid="GetStarted.Description"/>
+            <LearnMoreUrl resid="GetStarted.LearnMoreUrl"/>
+          </GetStarted>
+          <FunctionFile resid="Commands.Url" />
+          <ExtensionPoint xsi:type="PrimaryCommandSurface">
+            <OfficeTab id="TabHome">
+              <Group id="CommandsGroup">
+                <Label resid="CommandsGroup.Label" />
+                <Icon>
+                  <bt:Image size="16" resid="Icon.16x16" />
+                  <bt:Image size="32" resid="Icon.32x32" />
+                  <bt:Image size="80" resid="Icon.80x80" />
+                </Icon>
+                <Control xsi:type="Button" id="StartServerButton">
+                  <Label resid="StartServerButton.Label" />
+                  <Supertip>
+                    <Title resid="StartServerButton.Label" />
+                    <Description resid="StartServerButton.Tooltip" />
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16x16" />
+                    <bt:Image size="32" resid="Icon.32x32" />
+                    <bt:Image size="80" resid="Icon.80x80" />
+                  </Icon>
+                  <Action xsi:type="ExecuteFunction">
+                    <FunctionId>StartServer</FunctionId>
+                  </Action>
+                </Control>
+                <Control xsi:type="Button" id="StopServerButton">
+                  <Label resid="StopServerButton.Label" />
+                  <Supertip>
+                    <Title resid="StopServerButton.Label" />
+                    <Description resid="StopServerButton.Tooltip" />
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16x16" />
+                    <bt:Image size="32" resid="Icon.32x32" />
+                    <bt:Image size="80" resid="Icon.80x80" />
+                  </Icon>
+                  <Action xsi:type="ExecuteFunction">
+                    <FunctionId>StopServer</FunctionId>
+                  </Action>
+                </Control>
+                <Control xsi:type="Button" id="SendMessageButton">
+                  <Label resid="SendMessageButton.Label" />
+                  <Supertip>
+                    <Title resid="SendMessageButton.Label" />
+                    <Description resid="SendMessageButton.Tooltip" />
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16x16" />
+                    <bt:Image size="32" resid="Icon.32x32" />
+                    <bt:Image size="80" resid="Icon.80x80" />
+                  </Icon>
+                  <Action xsi:type="ExecuteFunction">
+                    <FunctionId>SendMessage</FunctionId>
+                  </Action>
+                </Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
+        </DesktopFormFactor>
+      </Host>
+    </Hosts>
+    <Resources>
+      <bt:Images>
+        <bt:Image id="Icon.16x16" DefaultValue="https://yourdomain.com/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://yourdomain.com/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://yourdomain.com/assets/icon-80.png"/>
+      </bt:Images>
+      <bt:Urls>
+        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
+        <bt:Url id="Commands.Url" DefaultValue="https://yourdomain.com/commands.html" />
+        <bt:Url id="Taskpane.Url" DefaultValue="https://yourdomain.com/taskpane.html" />
+      </bt:Urls>
+      <bt:ShortStrings>
+        <bt:String id="GetStarted.Title" DefaultValue="Get started with ShutOut Add-in!" />
+        <bt:String id="CommandsGroup.Label" DefaultValue="ShutOut Commands" />
+        <bt:String id="StartServerButton.Label" DefaultValue="Start Server" />
+        <bt:String id="StopServerButton.Label" DefaultValue="Stop Server" />
+        <bt:String id="SendMessageButton.Label" DefaultValue="Send Message" />
+      </bt:ShortStrings>
+      <bt:LongStrings>
+        <bt:String id="GetStarted.Description" DefaultValue="Your ShutOut Add-in loaded successfully. Go to the HOME tab and click the buttons to manage your server and send messages." />
+        <bt:String id="StartServerButton.Tooltip" DefaultValue="Click to start the server" />
+        <bt:String id="StopServerButton.Tooltip" DefaultValue="Click to stop the server" />
+        <bt:String id="SendMessageButton.Tooltip" DefaultValue="Click to send a message" />
+      </bt:LongStrings>
+    </Resources>
+  </VersionOverrides>
+
+</OfficeApp>
