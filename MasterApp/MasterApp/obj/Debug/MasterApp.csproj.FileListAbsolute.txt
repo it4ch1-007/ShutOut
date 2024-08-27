@@ -1,0 +1,13 @@
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\bin\Debug\MasterApp.dll
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\bin\Debug\MasterApp.pdb
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\bin\Debug\MasterApp.dll.manifest
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\bin\Debug\MasterApp.vsto
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\obj\Debug\MasterApp.csproj.AssemblyReference.cache
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\obj\Debug\MasterApp.Properties.Resources.resources
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\obj\Debug\MasterApp.csproj.GenerateResource.cache
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\obj\Debug\MasterApp.csproj.CoreCompileInputs.cache
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\obj\Debug\MasterApp.csproj.Up2Date
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\obj\Debug\MasterApp.dll
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\obj\Debug\MasterApp.pdb
+C:\Users\akshi\Downloads\ppt_controller\MasterApp\MasterApp\obj\Debug\MasterApp.Ribbon1.resources

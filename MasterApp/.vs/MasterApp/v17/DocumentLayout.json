@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\akshi\\Downloads\\ppt_controller\\MasterApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E142578-4513-4E44-BF34-F19914A79F24}|MasterApp\\MasterApp.csproj|c:\\users\\akshi\\downloads\\ppt_controller\\masterapp\\masterapp\\ribbon1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E142578-4513-4E44-BF34-F19914A79F24}|MasterApp\\MasterApp.csproj|solutionrelative:masterapp\\ribbon1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E142578-4513-4E44-BF34-F19914A79F24}|MasterApp\\MasterApp.csproj|c:\\users\\akshi\\downloads\\ppt_controller\\masterapp\\masterapp\\ribbon1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E142578-4513-4E44-BF34-F19914A79F24}|MasterApp\\MasterApp.csproj|solutionrelative:masterapp\\ribbon1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E142578-4513-4E44-BF34-F19914A79F24}|MasterApp\\MasterApp.csproj|c:\\users\\akshi\\downloads\\ppt_controller\\masterapp\\masterapp\\ribbon1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E142578-4513-4E44-BF34-F19914A79F24}|MasterApp\\MasterApp.csproj|solutionrelative:masterapp\\ribbon1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E142578-4513-4E44-BF34-F19914A79F24}|MasterApp\\MasterApp.csproj|C:\\Users\\akshi\\Downloads\\ppt_controller\\MasterApp\\masterapp\\thisaddin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E142578-4513-4E44-BF34-F19914A79F24}|MasterApp\\MasterApp.csproj|solutionrelative:masterapp\\thisaddin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ribbon1.cs",
+              "DocumentMoniker": "C:\\Users\\akshi\\Downloads\\ppt_controller\\MasterApp\\MasterApp\\Ribbon1.cs",
+              "RelativeDocumentMoniker": "MasterApp\\Ribbon1.cs",
+              "ToolTip": "C:\\Users\\akshi\\Downloads\\ppt_controller\\MasterApp\\MasterApp\\Ribbon1.cs",
+              "RelativeToolTip": "MasterApp\\Ribbon1.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAIAwwGkAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T20:00:06.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ribbon1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\akshi\\Downloads\\ppt_controller\\MasterApp\\MasterApp\\Ribbon1.Designer.cs",
+              "RelativeDocumentMoniker": "MasterApp\\Ribbon1.Designer.cs",
+              "ToolTip": "C:\\Users\\akshi\\Downloads\\ppt_controller\\MasterApp\\MasterApp\\Ribbon1.Designer.cs",
+              "RelativeToolTip": "MasterApp\\Ribbon1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T19:57:38.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ribbon1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\akshi\\Downloads\\ppt_controller\\MasterApp\\MasterApp\\Ribbon1.cs",
+              "RelativeDocumentMoniker": "MasterApp\\Ribbon1.cs",
+              "ToolTip": "C:\\Users\\akshi\\Downloads\\ppt_controller\\MasterApp\\MasterApp\\Ribbon1.cs [Design]",
+              "RelativeToolTip": "MasterApp\\Ribbon1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T19:55:48.217Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThisAddIn.cs",
+              "DocumentMoniker": "C:\\Users\\akshi\\Downloads\\ppt_controller\\MasterApp\\MasterApp\\ThisAddIn.cs",
+              "RelativeDocumentMoniker": "MasterApp\\ThisAddIn.cs",
+              "ToolTip": "C:\\Users\\akshi\\Downloads\\ppt_controller\\MasterApp\\MasterApp\\ThisAddIn.cs",
+              "RelativeToolTip": "MasterApp\\ThisAddIn.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T19:52:39.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
